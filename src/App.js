@@ -26,6 +26,11 @@ const App = () => {
       title: "Groceries",
       amount: 150,
       date: new Date(2022, 6, 10),
+    },  {
+      id: "e6",
+      title: "Buy College Books ",
+      amount: 150,
+      date: new Date(2022, 6, 10),
     },
   ];
 
