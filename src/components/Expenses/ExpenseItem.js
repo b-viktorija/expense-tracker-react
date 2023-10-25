@@ -27,7 +27,7 @@ const ExpenseItem = (props1) => {
         <div className="expense-item__price">${props1.amount}</div>
       </div>
       {/* just the function name, not actually calling it here cause it would get executed without waiting for the click when the jsx is loaded */}
-      <button onClick={clickHandler}>Change title</button>
+      <button class="title-btn" onClick={clickHandler}>Change title</button>
     </Card>
   );
 }
